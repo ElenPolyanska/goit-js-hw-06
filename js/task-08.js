@@ -18,7 +18,7 @@ function onFormSubmit(event) {
         password:password.value,
     }
     console.log(objectData)
-  console.log(`Email: ${email.value}, Password: ${password.value}`);
+  // console.log(`Email: ${email.value}, Password: ${password.value}`);
   event.target.reset();
 }
 

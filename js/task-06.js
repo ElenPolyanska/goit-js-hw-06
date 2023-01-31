@@ -14,8 +14,9 @@ function onInputCheck(event) {
     // console.log(event.target)
 
     if (Number(valueOfLength) !== inputEl.value.length) { 
+        inputEl.classList.remove('valid')
         return inputEl.classList.add('invalid');
         
-    }
-        return inputEl.classList.replace('invalid', 'valid');
+    } inputEl.classList.remove('invalid')
+    return inputEl.classList.add('valid');
 }
